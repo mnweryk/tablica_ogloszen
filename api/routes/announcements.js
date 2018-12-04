@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const mongoose = require('mongoose');
 
-const Product = require('../models/product');
+const Product = require('../models/announcement');
 
 router.get('/', (req, res, next) => {
     res.status(200).json({
@@ -11,25 +11,25 @@ router.get('/', (req, res, next) => {
 });
 
 router.post('/', (req, res, next) => {
-    const product = new Product({
+    const product = new Announcement({
         _id: new mongoose.Types.ObjectId(),
         name: req.body.name,
         price: req.body.price
     });
-    product.save().then(result => {
+    announcement.save().then(result => {
         console.log(result);
     })
     .catch(err => console.log(err));
 
     res.status(201).json({
         message: 'Handling POST requests to /products',
-        createdProduct: product
+        createdProduct: announcement
     });
 });
 
-router.get('/:productId', (req, res, next) => {
-    const id = req.params.productId;
-    Product.findById(id)
+router.get('/:announcementId', (req, res, next) => {
+    const id = req.params.announcementId;
+    Announcement.findById(id)
     .exec()
     .then(doc => {
         console.log(doc);
@@ -41,15 +41,15 @@ router.get('/:productId', (req, res, next) => {
 
 });
 
-router.patch('/:productId', (req, res, next) => {
+router.patch('/:announcementId', (req, res, next) => {
     res.status(200).json({
-        message: 'Updated product!'
+        message: 'Updated announcement!'
     });
 });
 
-router.delete('/:productId', (req, res, next) => {
+router.delete('/:announcementId', (req, res, next) => {
     res.status(200).json({
-        message: 'Product deleted!'
+        message: 'announcement deleted!'
     });
 });
 

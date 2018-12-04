@@ -11,7 +11,7 @@ process.env.MONGO_ATLAS_PW +
     useMongoClient: true
 });
 
-const prodctRoutes = require('./api/routes/products');
+const prodctRoutes = require('./api/routes/announcements');
 const orderRoutes = require('./api/routes/orders');
 
 app.use(morgan('dev'));
@@ -31,10 +31,10 @@ app.use((req, res, next) => {
     next();
 });
 
-/*use, które informują o istnieniu "zakładek" products
+/*use, które informują o istnieniu "zakładek" announcements
 i orders, ścieżka do nich zapisana jest w zmiennych, które
 przesyłane są w drugim argumencie */
-app.use('/products', prodctRoutes);
+app.use('/announcements', prodctRoutes);
 app.use('/orders', orderRoutes);
 
 /*funkcja, która się wykona, jeśli żaden poprzedni use
