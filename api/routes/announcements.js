@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const mongoose = require('mongoose');
 
-const Product = require('../models/announcement');
+const Announcement = require('../models/announcement');
 
 router.get('/', (req, res, next) => {
     res.status(200).json({
@@ -11,8 +11,9 @@ router.get('/', (req, res, next) => {
 });
 
 router.post('/', (req, res, next) => {
-    const product = new Announcement({
+    const announcement = new Announcement({
         _id: new mongoose.Types.ObjectId(),
+        type: req.body.type,
         name: req.body.name,
         price: req.body.price
     });
