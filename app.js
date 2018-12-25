@@ -6,10 +6,7 @@ const mongoose = require('mongoose');
 
 mongoose.connect('mongodb+srv://mati:' + 
 process.env.MONGO_ATLAS_PW + 
-'@cluster-8u2ux.mongodb.net/test?',
-{
-    useMongoClient: true
-});
+'@cluster-8u2ux.mongodb.net/test?');
 
 const prodctRoutes = require('./api/routes/announcements');
 const orderRoutes = require('./api/routes/orders');

@@ -14,8 +14,13 @@ router.post('/', (req, res, next) => {
     const announcement = new Announcement({
         _id: new mongoose.Types.ObjectId(),
         type: req.body.type,
-        name: req.body.name,
-        price: req.body.price
+        title: req.body.title,
+        description: req.body.description,
+        author: req.body.author,
+        contact: req.body.contact,
+        city: req.body.city,
+        price: req.body.price,
+        date: req.body.date
     });
     announcement.save().then(result => {
         console.log(result);
