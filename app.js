@@ -10,6 +10,7 @@ process.env.MONGO_ATLAS_PW +
 
 const prodctRoutes = require('./api/routes/announcements');
 const orderRoutes = require('./api/routes/orders');
+const searchRoutes = require('./api/routes/search');
 
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({Pextended: false}));
@@ -33,6 +34,7 @@ i orders, ścieżka do nich zapisana jest w zmiennych, które
 przesyłane są w drugim argumencie */
 app.use('/announcements', prodctRoutes);
 app.use('/orders', orderRoutes);
+app.use('/search', searchRoutes)
 
 /*funkcja, która się wykona, jeśli żaden poprzedni use
 się nie wykona, czyli nie odnajdzie porządanej ścieżki
