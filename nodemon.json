@@ -1,5 +1,6 @@
 {
     "env": {
-        "MONGO_ATLAS_PW": "mati"
+        "MONGO_ATLAS_PW": "mati",
+        "TOKEN_KEY": "secret"
     }
 }
