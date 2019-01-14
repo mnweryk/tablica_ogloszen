@@ -4,10 +4,52 @@ const mongoose = require('mongoose');
 
 const Announcement = require('../models/announcement');
 
-router.get('/', (req, res, next) => {
-    res.status(200).json({
-        message: 'Handling GET requests to /products'
-    })
+router.get('/kupie', (req, res, next) => {
+    Announcement.find({type: ["KUPIE", "Kupie", "kupie"]})
+        .exec()
+        .then(announcement => {
+            console.log(announcement);
+            res.status(200).json(announcement);
+        })
+        .catch(err => {
+            console.log(err);
+            res.status(500).json({
+                error: err
+            });
+        });
+
+});
+
+router.get('/sprzedam', (req, res, next) => {
+    Announcement.find({type: ["SPRZEDAM", "Sprzedam", "sprzedam"]})
+        .exec()
+        .then(announcement => {
+            console.log(announcement);
+            res.status(200).json(announcement);
+        })
+        .catch(err => {
+            console.log(err);
+            res.status(500).json({
+                error: err
+            });
+        });
+
+});
+
+router.get('/zamienie', (req, res, next) => {
+    Announcement.find({type: ["ZAMIENIE", "Zamienie", "zamienie"]})
+        .exec()
+        .then(announcement => {
+            console.log(announcement);
+            res.status(200).json(announcement);
+        })
+        .catch(err => {
+            console.log(err);
+            res.status(500).json({
+                error: err
+            });
+        });
+
 });
 
 router.post('/', (req, res, next) => {
