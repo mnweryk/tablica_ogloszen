@@ -1,6 +1,7 @@
 {
     "env": {
         "MONGO_ATLAS_PW": "mati",
-        "TOKEN_KEY": "secret"
+        "TOKEN_KEY": "secret",
+        "API_KEY": "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"
     }
 }

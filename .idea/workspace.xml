@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c359f15-8efd-4bb1-bb2e-22ac9630b509" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api/models/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/routes/contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/routes/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodemon.json" beforeDir="false" afterPath="$PROJECT_DIR$/nodemon.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,15 +19,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Tablica_ogloszen_no_time" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/routes/user.js">
+        <entry file="file://$PROJECT_DIR$/api/models/contact.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="67" column="13" lean-forward="true" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/routes/contact.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
               <folding>
-                <element signature="e#3407#3740#0" />
+                <element signature="e#979#1015#0" />
               </folding>
             </state>
           </provider>
@@ -32,60 +48,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/routes/announcements.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-end-line="5" />
+            <state relative-caret-position="289">
+              <caret line="69" column="36" selection-start-line="66" selection-start-column="4" selection-end-line="69" selection-end-column="36" />
               <folding>
+                <element signature="e#206#559#0" />
                 <element signature="e#313#411#0" />
                 <element signature="e#435#554#0" />
                 <element signature="e#607#969#0" />
                 <element signature="e#845#964#0" />
                 <element signature="e#1017#1379#0" />
                 <element signature="e#1255#1374#0" />
-                <element signature="e#989#1235#0" />
+                <element signature="e#1816#1852#0" />
+                <element signature="e#1917#2017#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/models/announcement.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api/routes/search.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
-              <folding>
-                <element signature="e#371#804#0" />
-                <element signature="e#399#463#0" />
-                <element signature="e#445#543#0" />
-                <element signature="e#567#686#0" />
-                <element signature="e#826#888#0" />
-                <element signature="e#944#1054#0" />
-                <element signature="e#1082#1221#0" />
-                <element signature="e#1260#2287#0" />
-                <element signature="e#1329#1352#0" />
-                <element signature="e#1448#1558#0" />
-                <element signature="e#1586#1725#0" />
-                <element signature="e#1707#2094#0" />
-                <element signature="e#1848#1946#0" />
-                <element signature="e#1970#2089#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/routes/orders.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="31" selection-start-column="31" selection-end-line="1" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -111,19 +86,25 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/api/models/product.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/api/models/announcement.js" />
         <option value="$PROJECT_DIR$/api/models/user.js" />
-        <option value="$PROJECT_DIR$/nodemon.json" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/api/routes/user.js" />
         <option value="$PROJECT_DIR$/api/routes/announcements.js" />
         <option value="$PROJECT_DIR$/api/routes/search.js" />
+        <option value="$PROJECT_DIR$/appmailer.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/mailer.js" />
+        <option value="$PROJECT_DIR$/sendgrid.js" />
+        <option value="$PROJECT_DIR$/nodemon.json" />
+        <option value="$PROJECT_DIR$/api/models/contact.js" />
+        <option value="$PROJECT_DIR$/api/routes/contact.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
+    <option name="x" value="642" />
+    <option name="y" value="73" />
     <option name="width" value="691" />
     <option name="height" value="644" />
   </component>
@@ -225,12 +206,12 @@
       <workItem from="1545908220152" duration="6502000" />
       <workItem from="1547496822036" duration="1630000" />
       <workItem from="1547506252899" duration="513000" />
-      <workItem from="1547506974110" duration="8663000" />
+      <workItem from="1547506974110" duration="21249000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30496000" />
+    <option name="totallyTimeSpent" value="43082000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -245,13 +226,13 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.75728154" visible="true" weight="0.14434524" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7743056" visible="true" weight="0.18229167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" sideWeight="0.24271844" side_tool="true" visible="true" weight="0.14434524" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="npm" order="2" sideWeight="0.22569445" side_tool="true" weight="0.12557428" />
+      <window_info id="Favorites" order="3" sideWeight="0.22590362" side_tool="true" weight="0.14434524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32569557" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36497545" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -259,27 +240,27 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50074404" side_tool="true" weight="0.38625205" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49925596" weight="0.492635" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49925596" weight="0.49590835" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.82580644" visible="true" weight="0.34442836" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7743056" visible="true" weight="0.12557428" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" sideWeight="0.17419355" side_tool="true" visible="true" weight="0.34442836" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="npm" order="2" sideWeight="0.22569445" side_tool="true" visible="true" weight="0.12557428" />
+      <window_info id="Favorites" order="3" sideWeight="0.22590362" side_tool="true" weight="0.14434524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43639922" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.39334637" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50074404" side_tool="true" weight="0.38625205" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49925596" weight="0.49590835" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -291,104 +272,120 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/api/models/product.js" />
     <entry file="file://$PROJECT_DIR$/api/routes/products.js" />
-    <entry file="file://$PROJECT_DIR$/server.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/ms/index.js" />
+    <entry file="file://$PROJECT_DIR$/api/routes/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application_notication.pug">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/api/models/announcement.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145">
-          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/ms/index.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodemon.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="55" lean-forward="true" selection-start-line="14" selection-start-column="75" selection-end-line="15" selection-end-column="55" />
+        <state relative-caret-position="102">
+          <caret line="6" column="18" selection-start-line="4" selection-start-column="27" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/routes/orders.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-line="1" selection-end-column="32" />
+        <state relative-caret-position="306">
+          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/routes/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="67" column="13" lean-forward="true" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
-          <folding>
-            <element signature="e#3407#3740#0" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="105" column="10" lean-forward="true" selection-start-line="105" selection-start-column="10" selection-end-line="105" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/models/announcement.js">
+    <entry file="file://$PROJECT_DIR$/appmailer.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mailer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="85">
+          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sendgrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="17" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodemon.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models/contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/routes/announcements.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-end-line="5" />
+        <state relative-caret-position="289">
+          <caret line="69" column="36" selection-start-line="66" selection-start-column="4" selection-end-line="69" selection-end-column="36" />
           <folding>
+            <element signature="e#206#559#0" />
             <element signature="e#313#411#0" />
             <element signature="e#435#554#0" />
             <element signature="e#607#969#0" />
             <element signature="e#845#964#0" />
             <element signature="e#1017#1379#0" />
             <element signature="e#1255#1374#0" />
-            <element signature="e#989#1235#0" />
+            <element signature="e#1816#1852#0" />
+            <element signature="e#1917#2017#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/routes/search.js">
+    <entry file="file://$PROJECT_DIR$/api/routes/contact.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="290">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
           <folding>
-            <element signature="e#371#804#0" />
-            <element signature="e#399#463#0" />
-            <element signature="e#445#543#0" />
-            <element signature="e#567#686#0" />
-            <element signature="e#826#888#0" />
-            <element signature="e#944#1054#0" />
-            <element signature="e#1082#1221#0" />
-            <element signature="e#1260#2287#0" />
-            <element signature="e#1329#1352#0" />
-            <element signature="e#1448#1558#0" />
-            <element signature="e#1586#1725#0" />
-            <element signature="e#1707#2094#0" />
-            <element signature="e#1848#1946#0" />
-            <element signature="e#1970#2089#0" />
+            <element signature="e#979#1015#0" />
           </folding>
         </state>
       </provider>

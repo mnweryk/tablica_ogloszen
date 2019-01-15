@@ -12,6 +12,7 @@ const prodctRoutes = require('./api/routes/announcements');
 const orderRoutes = require('./api/routes/orders');
 const searchRoutes = require('./api/routes/search');
 const userRoutes = require('./api/routes/user');
+const contactRoutes = require('./api/routes/contact');
 
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({Pextended: false}));
@@ -37,6 +38,7 @@ app.use('/announcements', prodctRoutes);
 app.use('/orders', orderRoutes);
 app.use('/search', searchRoutes);
 app.use('/user', userRoutes);
+app.use('/contact', contactRoutes);
 
 /*funkcja, która się wykona, jeśli żaden poprzedni use
 się nie wykona, czyli nie odnajdzie porządanej ścieżki
