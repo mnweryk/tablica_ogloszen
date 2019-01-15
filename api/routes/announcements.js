@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const mongoose = require('mongoose');
 const checkAuth = require('../middleware/check-auth')
+const User = require('../models/user')
 
 const Announcement = require('../models/announcement');
 
@@ -79,6 +80,8 @@ router.delete('/:announcementId', (req, res, next) => {
     });
 });
 
+var datetime = new Date();
+
 router.post('/', checkAuth, (req, res, next) => {
     const announcement = new Announcement({
         _id: new mongoose.Types.ObjectId(),
@@ -89,7 +92,7 @@ router.post('/', checkAuth, (req, res, next) => {
         contact: req.body.contact,
         city: req.body.city,
         price: req.body.price,
-        date: req.body.date
+        date: datetime.toISOString().slice(0,10)
     });
     announcement.save().then(result => {
         console.log(result);

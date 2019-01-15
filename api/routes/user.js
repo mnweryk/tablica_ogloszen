@@ -72,8 +72,8 @@ router.post('/login', (req, res, next) => {
                }
                if(response){
                    const token =  jwt.sign(
-                       {userId: user[0]._id,
-                        email: user[0].email}, //zmienne, które dodaję do tokena
+                       {userId: user._id,
+                        email: user.email}, //zmienne, które dodaję do tokena
                        process.env.TOKEN_KEY,                       //secretOrPrivateKey
                        {
                            expiresIn: "1h"
