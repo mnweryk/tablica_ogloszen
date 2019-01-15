@@ -71,9 +71,13 @@ router.post('/login', (req, res, next) => {
                }
                if(response){
                    const token =  jwt.sign(
-                       {email: user.email, userId: user._id}, //zmienne, które dodaję do tokena
+                       {userId: user[0]._id,
+                        email: user[0].email}, //zmienne, które dodaję do tokena
                        process.env.TOKEN_KEY,                       //secretOrPrivateKey
-                       {expiresIn: "2h"});                          //options
+                       {
+                           expiresIn: "1h"
+                        }
+                        );                          //options
                    return res.status(200).json({
                        message: 'Authorization succesful',
                        token: token

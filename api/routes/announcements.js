@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const mongoose = require('mongoose');
+const checkAuth = require('../middleware/check-auth')
 
 const Announcement = require('../models/announcement');
 
@@ -10,7 +11,33 @@ router.get('/', (req, res, next) => {
     })
 });
 
-router.post('/', (req, res, next) => {
+router.get('/:announcementId', (req, res, next) => {
+    const id = req.params.announcementId;
+    Announcement.findById(id)
+    .exec()
+    .then(doc => {
+        console.log(doc);
+        res.status(200).json(doc);
+    })
+    .catch(err => {
+        res.status(500).json({error: err})
+    });
+
+});
+
+router.patch('/:announcementId', checkAuth, (req, res, next) => {
+    res.status(200).json({
+        message: 'Updated announcement!'
+    });
+});
+
+router.delete('/:announcementId', (req, res, next) => {
+    res.status(200).json({
+        message: 'announcement deleted!'
+    });
+});
+
+router.post('/', checkAuth, (req, res, next) => {
     const announcement = new Announcement({
         _id: new mongoose.Types.ObjectId(),
         type: req.body.type,
@@ -30,32 +57,6 @@ router.post('/', (req, res, next) => {
     res.status(201).json({
         message: 'Handling POST requests to /products',
         createdProduct: announcement
-    });
-});
-
-router.get('/:announcementId', (req, res, next) => {
-    const id = req.params.announcementId;
-    Announcement.findById(id)
-    .exec()
-    .then(doc => {
-        console.log(doc);
-        res.status(200).json(doc);
-    })
-    .catch(err => {
-        res.status(500).json({error: err})
-    });
-
-});
-
-router.patch('/:announcementId', (req, res, next) => {
-    res.status(200).json({
-        message: 'Updated announcement!'
-    });
-});
-
-router.delete('/:announcementId', (req, res, next) => {
-    res.status(200).json({
-        message: 'announcement deleted!'
     });
 });
 
