@@ -10,7 +10,8 @@ router.post('/signup', (req, res, next) => {
      User.find({email: req.body.email})
          .exec()
          .then(user => {
-             if(user.length >= 1){              //jeśli użykownik istnieje
+             if(user.length >= 1)
+             {              //jeśli użykownik istnieje
                  return res.status(409).json({
                     message: "Email exists"
                  });
