@@ -43,21 +43,5 @@ router.post('/', (req, res, next) => {
     })
 });
 
-// router.post('/', (req, res, next) => {
-//     const application = {
-//         name: req.body.name,
-//         email: req.body.email,
-//         message: req.body.message
-//     };
-//
-//     await Application.create(application)
-//
-//     appMailer.applicationNotify({
-//         email: req.body.email,
-//         data: {
-//             name: req.body.name
-//         }
-//     })
-// });
 
 module.exports = router;

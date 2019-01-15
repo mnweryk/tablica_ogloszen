@@ -9,7 +9,6 @@ process.env.MONGO_ATLAS_PW +
 '@cluster-8u2ux.mongodb.net/test?');
 
 const prodctRoutes = require('./api/routes/announcements');
-const orderRoutes = require('./api/routes/orders');
 const searchRoutes = require('./api/routes/search');
 const userRoutes = require('./api/routes/user');
 const contactRoutes = require('./api/routes/contact');
@@ -35,7 +34,6 @@ app.use((req, res, next) => {
 i orders, ścieżka do nich zapisana jest w zmiennych, które
 przesyłane są w drugim argumencie */
 app.use('/announcements', prodctRoutes);
-app.use('/orders', orderRoutes);
 app.use('/search', searchRoutes);
 app.use('/user', userRoutes);
 app.use('/contact', contactRoutes);

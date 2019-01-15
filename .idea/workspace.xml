@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c359f15-8efd-4bb1-bb2e-22ac9630b509" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/models/contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/routes/contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/routes/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/routes/orders.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/routes/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodemon.json" beforeDir="false" afterPath="$PROJECT_DIR$/nodemon.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,11 +35,34 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/routes/contact.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+            <state relative-caret-position="403">
+              <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
               <folding>
-                <element signature="e#979#1015#0" />
+                <element signature="e#286#542#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/routes/search.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+              <folding>
+                <element signature="e#187#1214#0" />
+                <element signature="e#519#629#0" />
+                <element signature="e#657#796#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/middleware/check-auth.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -48,19 +70,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/routes/announcements.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="69" column="36" selection-start-line="66" selection-start-column="4" selection-end-line="69" selection-end-column="36" />
-              <folding>
-                <element signature="e#206#559#0" />
-                <element signature="e#313#411#0" />
-                <element signature="e#435#554#0" />
-                <element signature="e#607#969#0" />
-                <element signature="e#845#964#0" />
-                <element signature="e#1017#1379#0" />
-                <element signature="e#1255#1374#0" />
-                <element signature="e#1816#1852#0" />
-                <element signature="e#1917#2017#0" />
-              </folding>
+            <state relative-caret-position="1496">
+              <caret line="88" column="30" lean-forward="true" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -77,6 +97,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>product</find>
+      <find>order</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -90,14 +111,15 @@
         <option value="$PROJECT_DIR$/api/models/user.js" />
         <option value="$PROJECT_DIR$/api/routes/user.js" />
         <option value="$PROJECT_DIR$/api/routes/announcements.js" />
-        <option value="$PROJECT_DIR$/api/routes/search.js" />
         <option value="$PROJECT_DIR$/appmailer.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/mailer.js" />
         <option value="$PROJECT_DIR$/sendgrid.js" />
         <option value="$PROJECT_DIR$/nodemon.json" />
         <option value="$PROJECT_DIR$/api/models/contact.js" />
+        <option value="$PROJECT_DIR$/api/routes/search.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/api/middleware/check-auth.js" />
         <option value="$PROJECT_DIR$/api/routes/contact.js" />
       </list>
     </option>
@@ -118,23 +140,23 @@
         <subPane>
           <expand>
             <path>
-              <item name="Tablica_ogloszen_no_time" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tablica_ogloszen_no_time" type="462c0819:PsiDirectoryNode" />
+              <item name="master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Tablica_ogloszen_no_time" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tablica_ogloszen_no_time" type="462c0819:PsiDirectoryNode" />
+              <item name="master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Tablica_ogloszen_no_time" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tablica_ogloszen_no_time" type="462c0819:PsiDirectoryNode" />
+              <item name="master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="middleware" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Tablica_ogloszen_no_time" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tablica_ogloszen_no_time" type="462c0819:PsiDirectoryNode" />
+              <item name="master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -207,11 +229,12 @@
       <workItem from="1547496822036" duration="1630000" />
       <workItem from="1547506252899" duration="513000" />
       <workItem from="1547506974110" duration="21249000" />
+      <workItem from="1547559735631" duration="3581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43082000" />
+    <option name="totallyTimeSpent" value="46663000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -224,15 +247,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7743056" visible="true" weight="0.18229167" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.77061856" visible="true" weight="0.18229167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" sideWeight="0.22569445" side_tool="true" weight="0.12557428" />
+      <window_info id="npm" order="2" sideWeight="0.22938144" side_tool="true" weight="0.18229167" />
       <window_info id="Favorites" order="3" sideWeight="0.22590362" side_tool="true" weight="0.14434524" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36497545" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36497545" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -246,13 +268,13 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7743056" visible="true" weight="0.12557428" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.77061856" visible="true" weight="0.18229167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" sideWeight="0.22569445" side_tool="true" visible="true" weight="0.12557428" />
+      <window_info id="npm" order="2" sideWeight="0.22938144" side_tool="true" weight="0.18229167" />
       <window_info id="Favorites" order="3" sideWeight="0.22590362" side_tool="true" weight="0.14434524" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43639922" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36497545" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -273,16 +295,7 @@
     <entry file="file://$PROJECT_DIR$/api/models/product.js" />
     <entry file="file://$PROJECT_DIR$/api/routes/products.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/ms/index.js" />
-    <entry file="file://$PROJECT_DIR$/api/routes/search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application_notication.pug">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/application_notication.pug" />
     <entry file="file://$PROJECT_DIR$/api/models/announcement.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -297,13 +310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/routes/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -311,23 +317,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appmailer.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mailer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sendgrid.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/appmailer.js" />
+    <entry file="file://$PROJECT_DIR$/mailer.js" />
+    <entry file="file://$PROJECT_DIR$/sendgrid.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -364,28 +356,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/routes/announcements.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="69" column="36" selection-start-line="66" selection-start-column="4" selection-end-line="69" selection-end-column="36" />
+        <state relative-caret-position="1496">
+          <caret line="88" column="30" lean-forward="true" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/routes/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
           <folding>
-            <element signature="e#206#559#0" />
-            <element signature="e#313#411#0" />
-            <element signature="e#435#554#0" />
-            <element signature="e#607#969#0" />
-            <element signature="e#845#964#0" />
-            <element signature="e#1017#1379#0" />
-            <element signature="e#1255#1374#0" />
-            <element signature="e#1816#1852#0" />
-            <element signature="e#1917#2017#0" />
+            <element signature="e#187#1214#0" />
+            <element signature="e#519#629#0" />
+            <element signature="e#657#796#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/middleware/check-auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/routes/contact.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        <state relative-caret-position="403">
+          <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
           <folding>
-            <element signature="e#979#1015#0" />
+            <element signature="e#286#542#0" />
           </folding>
         </state>
       </provider>

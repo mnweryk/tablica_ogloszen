@@ -66,9 +66,9 @@ router.get('/author/:author', (req, res, next)=> {
 });
 
 router.get('/city/:city', (req, res, next)=> {
-    const city = req.params.author;
+    const city = req.params.city;
     Announcement.find({
-        author: city
+        city: city
 
     })
         .exec()
