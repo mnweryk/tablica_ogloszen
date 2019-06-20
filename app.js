@@ -42,7 +42,7 @@ app.use('/contact', contactRoutes);
 się nie wykona, czyli nie odnajdzie porządanej ścieżki
 html */
 app.use((req, res, next) => {
-    const error = new Error('NOT FOUND 404');
+    const error = new Error('Wander, you had lost your way :(');
     error.status = 404;
     next(error);
 });

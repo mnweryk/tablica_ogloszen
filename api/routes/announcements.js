@@ -6,8 +6,8 @@ const User = require('../models/user')
 
 const Announcement = require('../models/announcement');
 
-router.get('/kupie', (req, res, next) => {
-    Announcement.find({type: ["KUPIE", "Kupie", "kupie"]})
+router.get('/', (req, res, next) => {
+    Announcement.find({type: ["BUY", "Buy", "buy", "SELL", "Sell", "sell", "CHANGE", "Change", "change"]})
         .exec()
         .then(announcement => {
             console.log(announcement);
@@ -22,8 +22,8 @@ router.get('/kupie', (req, res, next) => {
 
 });
 
-router.get('/sprzedam', (req, res, next) => {
-    Announcement.find({type: ["SPRZEDAM", "Sprzedam", "sprzedam"]})
+router.get('/buy', (req, res, next) => {
+    Announcement.find({type: ["BUY", "Buy", "buy"]})
         .exec()
         .then(announcement => {
             console.log(announcement);
@@ -38,8 +38,24 @@ router.get('/sprzedam', (req, res, next) => {
 
 });
 
-router.get('/zamienie', (req, res, next) => {
-    Announcement.find({type: ["ZAMIENIE", "Zamienie", "zamienie"]})
+router.get('/sell', (req, res, next) => {
+    Announcement.find({type: ["SELL", "Sell", "sell"]})
+        .exec()
+        .then(announcement => {
+            console.log(announcement);
+            res.status(200).json(announcement);
+        })
+        .catch(err => {
+            console.log(err);
+            res.status(500).json({
+                error: err
+            });
+        });
+
+});
+
+router.get('/change', (req, res, next) => {
+    Announcement.find({type: ["CHANGE", "Change", "change"]})
         .exec()
         .then(announcement => {
             console.log(announcement);

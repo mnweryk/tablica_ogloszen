@@ -9,7 +9,7 @@ sgMail.setApiKey(process.env.API_KEY);
 //const appMailer = require(('../../appmailer'));
 
 router.get('/', (req, res, next) => {
-    const authors = ["pikachuu", "szpadelka"];
+    const authors = ["Gosia", "Mati"];
     res.status(200).json({
         message: "dziekujemy za odwiedzenie naszej strony, zapraszamy do wyslania nam wiadomosci",
         autorzy: authors,
