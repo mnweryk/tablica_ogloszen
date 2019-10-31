@@ -15,7 +15,7 @@
     "connect-ensure-login": "^0.1.1",
     "express": "^4.16.4",
     "jsonwebtoken": "^8.4.0",
-    "mongoose": "^5.3.14",
+    "mongoose": "^5.7.5",
     "morgan": "^1.9.1",
     "pug": "^2.0.3",
     "@sendgrid/mail": "6.3.1"
